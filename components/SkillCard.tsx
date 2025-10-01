@@ -6,7 +6,7 @@ import { DivideIcon as LucideIcon } from 'lucide-react';
 interface SkillCardProps {
   name: string;
   level: number;
-  icon: LucideIcon;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>; 
   index: number;
 }
 
